@@ -21,7 +21,8 @@ Product.class_eval do
     best_n = Order.between(start,finish).find(:all,
       :joins => "INNER JOIN checkouts ON orders.id = checkouts.order_id AND checkouts.state = 'complete'" +
         " INNER JOIN line_items ON orders.id = line_items.order_id" +
-        " INNER JOIN variants ON variant_id = variants.id",
+        " INNER JOIN variants ON variant_id = variants.id" +
+        " INNER JOIN products ON variants.product_id = products.id ",
       :select => "product_id, SUM(quantity) sum",
       :conditions => "products.deleted_at IS NULL",
       :group => "product_id ORDER BY sum DESC",
