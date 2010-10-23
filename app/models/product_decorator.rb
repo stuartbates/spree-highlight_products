@@ -23,6 +23,7 @@ Product.class_eval do
         " INNER JOIN line_items ON orders.id = line_items.order_id" +
         " INNER JOIN variants ON variant_id = variants.id",
       :select => "product_id, SUM(quantity) sum",
+      :conditions => "products.deleted_at IS NULL",
       :group => "product_id ORDER BY sum DESC",
       :limit => n)
     best_n.map {|o| [o.sum, Product.find(o.product_id)] }
