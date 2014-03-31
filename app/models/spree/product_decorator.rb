@@ -1,4 +1,5 @@
-Product.class_eval do
+Spree::Product.class_eval do
+
   named_scope :highlighted, {:conditions => "products.highlighted_at IS NOT NULL AND products.deleted_at IS NULL", :order => "highlighted_at DESC"}
 
   def highlight
@@ -29,4 +30,5 @@ Product.class_eval do
       :limit => n)
     best_n.map {|o| [o.sum, Product.find(o.product_id)] }
   end
+
 end

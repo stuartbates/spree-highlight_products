@@ -1,3 +1,14 @@
-map.namespace :admin do |admin|
-  admin.resources :products, :member => {:highlight => :post, :unhighlight => :post}
+Spree::Core::Engine.routes.draw do
+
+  namespace :admin do
+
+    resources :products do
+      member do
+        post :highlight
+        post :unhighlight
+      end
+    end
+
+  end
+
 end
