@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9a56f39c-5be7-45ea-9557-0636b21fe189" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spree_highlighted_products/engine.rb" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/spree_highlighted_products.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/spree-highlight_products.iml" afterPath="$PROJECT_DIR$/.idea/spree-highlight_products.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/overrides/add_highlight_button.rb" afterPath="$PROJECT_DIR$/app/overrides/add_highlight_button.rb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/spree/product_decorator.rb" afterPath="$PROJECT_DIR$/app/models/spree/product_decorator.rb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="spree-highlight_products.iws" />
@@ -28,10 +27,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="add_highlight_button.rb" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="add_highlight_button.rb" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/overrides/add_highlight_button.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="32" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+            <state line="3" column="55" selection-start="263" selection-end="263" vertical-scroll-proportion="0.07258064" vertical-offset="0" max-vertical-offset="620">
               <folding />
             </state>
           </provider>
@@ -55,10 +54,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="engine.rb" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="engine.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/spree_highlighted_products/engine.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="3" selection-start="562" selection-end="562" vertical-scroll-proportion="0.48989114" vertical-offset="0" max-vertical-offset="643">
+            <state line="21" column="3" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="product_decorator.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/models/spree/product_decorator.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="3" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_highlight_product_button.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/spree/admin/products/_highlight_product_button.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="9" selection-start="333" selection-end="333" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
               <folding />
             </state>
           </provider>
@@ -84,9 +101,11 @@
         <option value="$PROJECT_DIR$/db/migrate/20100805160713_add_highlighted_at_to_products.rb" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
         <option value="$PROJECT_DIR$/highlight_products_hooks.rb" />
-        <option value="$PROJECT_DIR$/app/overrides/add_highlight_button.rb" />
         <option value="$PROJECT_DIR$/lib/spree_highlighted_products.rb" />
         <option value="$PROJECT_DIR$/lib/spree_highlighted_products/engine.rb" />
+        <option value="$PROJECT_DIR$/app/models/spree/product_decorator.rb" />
+        <option value="$PROJECT_DIR$/app/views/spree/admin/products/_highlight_product_button.html.erb" />
+        <option value="$PROJECT_DIR$/app/overrides/add_highlight_button.rb" />
       </list>
     </option>
   </component>
@@ -170,6 +189,72 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="spree_highlighted_products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree-highlight_products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree-highlight_products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree-highlight_products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree-highlight_products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree-highlight_products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree-highlight_products" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="models" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spree" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -505,13 +590,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/models/spree/product_decorator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="1286" selection-end="1286" vertical-scroll-proportion="1.2403101" vertical-offset="0" max-vertical-offset="585">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/spree/admin/products_controller_decorator.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="3" selection-start="405" selection-end="405" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
@@ -533,9 +611,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/overrides/add_highlight_button.rb">
+    <entry file="file://$PROJECT_DIR$/lib/spree_highlighted_products.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="32" selection-start="154" selection-end="154" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="135">
+        <state line="1" column="43" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/spree/product_decorator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="3" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="645">
           <folding />
         </state>
       </provider>
@@ -547,16 +632,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/spree_highlighted_products.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/spree/admin/products/_highlight_product_button.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="43" selection-start="64" selection-end="64" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+        <state line="4" column="9" selection-start="333" selection-end="333" vertical-scroll-proportion="-2.5" vertical-offset="0" max-vertical-offset="150">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/spree_highlighted_products/engine.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="3" selection-start="562" selection-end="562" vertical-scroll-proportion="0.48989114" vertical-offset="0" max-vertical-offset="643">
+        <state line="21" column="3" selection-start="562" selection-end="562" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/overrides/add_highlight_button.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="55" selection-start="263" selection-end="263" vertical-scroll-proportion="0.07258064" vertical-offset="0" max-vertical-offset="620">
           <folding />
         </state>
       </provider>

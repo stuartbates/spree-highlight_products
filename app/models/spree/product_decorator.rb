@@ -1,6 +1,9 @@
 Spree::Product.class_eval do
 
-  named_scope :highlighted, {:conditions => "products.highlighted_at IS NOT NULL AND products.deleted_at IS NULL", :order => "highlighted_at DESC"}
+  scope :highlighted, {
+    :conditions => 'spree_products.highlighted_at IS NOT NULL AND spree_products.deleted_at IS NULL',
+    :order => 'highlighted_at DESC'
+  }
 
   def highlight
     self.update_attribute(:highlighted_at, Time.current)
@@ -10,8 +13,9 @@ Spree::Product.class_eval do
     self.update_attribute(:highlighted_at, nil)
   end
 
-  private
+private
 
+  #TODO: Needs reqriting as table names don't include spree prefix
   def self.best_sellers(n, start = 1.week.ago, finish = Time.now)
     # most ordered items
     # looks for completed orders from date range (default: the past week)
